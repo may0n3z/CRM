@@ -1,0 +1,15 @@
+﻿<Window x:Class="var11.administrator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:var11"
+        mc:Ignorable="d"
+        Title="Администратор" Height="450" Width="800">
+    <Grid x:Name="managementDB">
+        <Button x:Name="ManagementDB" Content="Управление базами данных клиентов" HorizontalAlignment="Center" Height="40" VerticalAlignment="Top" Width="220" Margin="0,80,0,0" Click="ManagementDB_Click"/>
+        <Button x:Name="historyA" Content="История заказов" HorizontalAlignment="Center" Height="40" VerticalAlignment="Top" Width="220" Margin="0,160,0,0" Click="historyA_Click"/>
+        <Button x:Name="Analysis" Content="Анализ закупки рекламы" HorizontalAlignment="Center" Height="40" VerticalAlignment="Top" Width="220" Margin="0,240,0,0" Click="Analysis_Click"/>
+        <Button x:Name="Back" Content="Назад" HorizontalAlignment="Center" Height="40" VerticalAlignment="Top" Width="220" Margin="0,320,0,0" Click="Back_Click"/>
+    </Grid>
+</Window>
